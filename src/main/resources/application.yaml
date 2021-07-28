@@ -1,0 +1,24 @@
+
+user:
+  name: 18437927369@163.com
+  password: piyihao.1996
+
+server:
+  port: 8086
+spring:
+  profiles:
+    active: test
+debug: true
+---
+server:
+  port: 8081
+
+spring:
+  profiles: dev
+---
+server:
+  port: 8082
+
+spring:
+  profiles: test
+---
